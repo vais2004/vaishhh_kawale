@@ -3,7 +3,6 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="bg-light">
-     
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <a className="navbar-brand fs-4" href="#">
@@ -49,13 +48,24 @@ export default function App() {
         </div>
       </nav>
 
-      
       <header className="bg-white py-5">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 order-md-1 text-center text-md-start">
               <h1 className="display-4">I'm Vaishnavi Kawale</h1>
               <p className="lead text-muted">Full Stack Developer</p>
+
+              <a
+                className="btn btn-outline-primary mt-3"
+                href="/assets/Resume resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+              >
+                Download Resume
+              </a>
+              <br />
+              <br />
             </div>
             <div className="col-md-6 order-md-2 d-flex justify-content-center justify-content-md-end">
               <div className="hero-img">
@@ -76,7 +86,6 @@ export default function App() {
         </div>
       </header>
 
-      
       <main>
         <section className="py-5 bg-light">
           <div className="container">
@@ -112,7 +121,6 @@ export default function App() {
           </div>
         </section>
 
-        
         <section id="skills" className="py-5">
           <div className="container">
             <h2 className="mb-3">Skills</h2>
@@ -130,12 +138,10 @@ export default function App() {
           </div>
         </section>
 
-       
         <section id="projects" className="py-5">
           <div className="container">
             <h2 className="mb-4">Projects</h2>
             <div className="row g-4">
-              
               <div className="col-md-6">
                 <div className="card h-100 shadow-sm">
                   <img
@@ -195,7 +201,6 @@ export default function App() {
                 </div>
               </div>
 
-              
               <div className="col-md-6">
                 <div className="card h-100 shadow-sm">
                   <img
@@ -258,7 +263,6 @@ export default function App() {
           </div>
         </section>
 
-        
         <section id="contact" className="py-5 bg-light">
           <div className="container">
             <div className="p-4 mx-auto" style={{ maxWidth: "250px" }}>
@@ -313,7 +317,6 @@ export default function App() {
         </section>
       </main>
 
-      
       <footer className="bg-dark text-white py-3 text-center">
         <div className="container">
           <p className="mb-0">
