@@ -1,0 +1,22 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1,
+h2,
+h5 {
+  font-weight: 600;
+}
+
+.hero-img img {
+  max-height: 170px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.card-img-top,
+.img-fluid {
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
