@@ -3,7 +3,7 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="bg-light">
-      {/* Navbar */}
+     
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <a className="navbar-brand fs-4" href="#">
@@ -49,7 +49,7 @@ export default function App() {
         </div>
       </nav>
 
-      {/* Header */}
+      
       <header className="bg-white py-5">
         <div className="container">
           <div className="row align-items-center">
@@ -76,7 +76,7 @@ export default function App() {
         </div>
       </header>
 
-      {/* About + Education */}
+      
       <main>
         <section className="py-5 bg-light">
           <div className="container">
@@ -112,7 +112,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* Skills */}
+        
         <section id="skills" className="py-5">
           <div className="container">
             <h2 className="mb-3">Skills</h2>
@@ -130,12 +130,12 @@ export default function App() {
           </div>
         </section>
 
-        {/* Projects */}
+       
         <section id="projects" className="py-5">
           <div className="container">
             <h2 className="mb-4">Projects</h2>
             <div className="row g-4">
-              {/* Project 1 */}
+              
               <div className="col-md-6">
                 <div className="card h-100 shadow-sm">
                   <img
@@ -195,7 +195,7 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Project 2 */}
+              
               <div className="col-md-6">
                 <div className="card h-100 shadow-sm">
                   <img
@@ -258,7 +258,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* Contact */}
+        
         <section id="contact" className="py-5 bg-light">
           <div className="container">
             <div className="p-4 mx-auto" style={{ maxWidth: "250px" }}>
@@ -313,7 +313,7 @@ export default function App() {
         </section>
       </main>
 
-      {/* Footer */}
+      
       <footer className="bg-dark text-white py-3 text-center">
         <div className="container">
           <p className="mb-0">
