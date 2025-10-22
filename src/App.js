@@ -3,6 +3,7 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="bg-light">
+      {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <a className="navbar-brand fs-4" href="#">
@@ -48,24 +49,13 @@ export default function App() {
         </div>
       </nav>
 
+      {/* Header */}
       <header className="bg-white py-5">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 order-md-1 text-center text-md-start">
               <h1 className="display-4">I'm Vaishnavi Kawale</h1>
               <p className="lead text-muted">Full Stack Developer</p>
-
-              <a
-                className="btn btn-outline-primary mt-3"
-                href="/assets/Resume resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                download
-              >
-                Download Resume
-              </a>
-              <br />
-              <br />
             </div>
             <div className="col-md-6 order-md-2 d-flex justify-content-center justify-content-md-end">
               <div className="hero-img">
@@ -86,6 +76,7 @@ export default function App() {
         </div>
       </header>
 
+      {/* About + Education */}
       <main>
         <section className="py-5 bg-light">
           <div className="container">
@@ -121,6 +112,7 @@ export default function App() {
           </div>
         </section>
 
+        {/* Skills */}
         <section id="skills" className="py-5">
           <div className="container">
             <h2 className="mb-3">Skills</h2>
@@ -138,10 +130,12 @@ export default function App() {
           </div>
         </section>
 
+        {/* Projects */}
         <section id="projects" className="py-5">
           <div className="container">
             <h2 className="mb-4">Projects</h2>
             <div className="row g-4">
+              {/* Project 1 */}
               <div className="col-md-6">
                 <div className="card h-100 shadow-sm">
                   <img
@@ -151,6 +145,7 @@ export default function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">MyStyleSpot</h5>
+                    <hr />
                     <div className="card-text text-muted">
                       <strong>Features:</strong>
                       <ul>
@@ -164,43 +159,68 @@ export default function App() {
                           Payment method selection and detailed order summaries
                         </li>
                       </ul>
-                      <em>
-                        Demonstrates frontend, backend, and full integration
-                        skills.
-                      </em>
                     </div>
                     <div className="mb-2">
+                      {/* --- Frontend Stack --- */}
                       <span className="badge bg-secondary">React</span>
-                      <span className="badge bg-secondary">Redux Toolkit</span>
-                      <span className="badge bg-secondary">Node.js</span>
-                      <span className="badge bg-secondary">MongoDB</span>
-                      <span className="badge bg-secondary">Bootstrap</span>
+                      <span className="badge bg-secondary ms-1">
+                        React Router
+                      </span>
+                      <span className="badge bg-secondary ms-1">
+                        Redux Toolkit
+                      </span>
+                      <span className="badge bg-secondary ms-1">
+                        React Redux
+                      </span>
+                      <span className="badge bg-secondary ms-1">
+                        Redux Thunk
+                      </span>
+                      <span className="badge bg-secondary ms-1">
+                        Redux Persist
+                      </span>
+
+                      <span className="badge bg-secondary ms-1">Bootstrap</span>
+                      <span className="badge bg-secondary ms-1">
+                        Bootstrap Icons
+                      </span>
+                      <span className="badge bg-secondary ms-1">
+                        React Toastify
+                      </span>
+
+                      {/* --- Backend Stack --- */}
+                      <span className="badge bg-secondary ms-1">Node.js</span>
+                      <span className="badge bg-secondary ms-1">Express</span>
+                      <span className="badge bg-secondary ms-1">MongoDB</span>
+                      <span className="badge bg-secondary ms-1">Mongoose</span>
+                      <span className="badge bg-secondary ms-1">CORS</span>
+                      <span className="badge bg-secondary ms-1">dotenv</span>
                     </div>
                     <a
                       href="https://ecom-project-jade.vercel.app/"
-                      className="btn btn-outline-success btn-sm me-2"
+                      className="btn btn-outline-success btn-sm me-2 mb-2"
                       target="_blank"
                     >
-                      View Demo
+                      🌐 View Demo
                     </a>
                     <a
                       href="https://github.com/vais2004/ecom-project"
-                      className="btn btn-outline-secondary btn-sm"
+                      className="btn btn-outline-secondary btn-sm mb-2"
                       target="_blank"
                     >
-                      Frontend
-                    </a>
+                      💻 Frontend
+                    </a>{" "}
                     <a
                       href="https://github.com/vais2004/mystylespot-backend"
-                      className="btn btn-outline-secondary btn-sm"
+                      className="btn btn-outline-secondary btn-sm mb-2"
                       target="_blank"
                     >
-                      Backend
+                      ⚙️ Backend
                     </a>
                   </div>
                 </div>
               </div>
 
+              {/* Project 2 */}
               <div className="col-md-6">
                 <div className="card h-100 shadow-sm">
                   <img
@@ -210,6 +230,7 @@ export default function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">LeadFlowByAnvaya</h5>
+                    <hr />
                     <div className="card-text text-muted">
                       <strong>Features:</strong>
                       <ul>
@@ -224,37 +245,129 @@ export default function App() {
                         </li>
                         <li>Intuitive navigation with route-based filtering</li>
                       </ul>
-                      <em>
-                        Focuses on admin tools, data handling and visual
-                        insights.
-                      </em>
                     </div>
                     <div className="mb-2">
+                      {/* --- Frontend Stack --- */}
                       <span className="badge bg-secondary">React</span>
-                      <span className="badge bg-secondary">Node.js</span>
-                      <span className="badge bg-secondary">MongoDB</span>
-                      <span className="badge bg-secondary">Recharts</span>
+                      <span className="badge bg-secondary ms-1">
+                        React Router
+                      </span>
+                      <span className="badge bg-secondary ms-1">Axios</span>
+                      <span className="badge bg-secondary ms-1">Bootstrap</span>
+                      <span className="badge bg-secondary ms-1">
+                        Bootstrap Icons
+                      </span>
+                      <span className="badge bg-secondary ms-1">
+                        React Toastify
+                      </span>
+                      <span className="badge bg-secondary ms-1">Recharts</span>
+
+                      {/* --- Backend Stack --- */}
+                      <span className="badge bg-secondary ms-1">Node.js</span>
+                      <span className="badge bg-secondary ms-1">Express</span>
+                      <span className="badge bg-secondary ms-1">MongoDB</span>
+                      <span className="badge bg-secondary ms-1">Mongoose</span>
+                      <span className="badge bg-secondary ms-1">CORS</span>
+                      <span className="badge bg-secondary ms-1">dotenv</span>
                     </div>
                     <a
                       href="https://lead-flow-by-anvaya.vercel.app/"
-                      className="btn btn-outline-success btn-sm me-2"
+                      className="btn btn-outline-success btn-sm me-2 mb-2"
                       target="_blank"
                     >
-                      View Demo
+                      🌐 View Demo
                     </a>
                     <a
                       href="https://github.com/vais2004/LeadFlowByAnvaya"
-                      className="btn btn-outline-secondary btn-sm"
+                      className="btn btn-outline-secondary btn-sm mb-2"
                       target="_blank"
                     >
-                      Frontend
-                    </a>
+                      💻 Frontend
+                    </a>{" "}
                     <a
                       href="https://github.com/vais2004/LeadFlowByAnvaya-backend"
-                      className="btn btn-outline-secondary btn-sm"
+                      className="btn btn-outline-secondary btn-sm mb-2"
                       target="_blank"
                     >
-                      Backend
+                      ⚙️ Backend
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Project 3 */}
+              <div className="col-md-6">
+                <div className="card h-100 shadow-sm">
+                  <img
+                    src="\img\Screenshot 2025-10-22 195409.png"
+                    alt="MyStyleSpot"
+                    className="card-img-top"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Eatzyra</h5>
+                    <hr />
+                    <div className="card-text text-muted">
+                      <strong>Features:</strong>
+                      <ul>
+                        <li>Item browsing and filtering </li>
+                        <li>cart with remove from cart feature</li>
+                        <li>Order placement and management</li>
+                        <li>Address management with default selection</li>
+                        <li>
+                          Payment method selection and detailed order summaries
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="mb-2">
+                      {/* --- Frontend Stack --- */}
+                      <span className="badge bg-secondary">React</span>
+                      <span className="badge bg-secondary ms-1">
+                        React Router
+                      </span>
+                      <span className="badge bg-secondary ms-1">Bootstrap</span>
+                      <span className="badge bg-secondary ms-1">
+                        React Bootstrap
+                      </span>
+                      <span className="badge bg-secondary ms-1">
+                        Bootstrap Icons
+                      </span>
+                      <span className="badge bg-secondary ms-1">
+                        Bootstrap Dark
+                      </span>
+                      <span className="badge bg-secondary ms-1">
+                        React Toastify
+                      </span>
+
+                      {/* --- Backend Stack --- */}
+                      <span className="badge bg-secondary ms-1">Node.js</span>
+                      <span className="badge bg-secondary ms-1">Express</span>
+                      <span className="badge bg-secondary ms-1">MongoDB</span>
+                      <span className="badge bg-secondary ms-1">Mongoose</span>
+                      <span className="badge bg-secondary ms-1">CORS</span>
+                      <span className="badge bg-secondary ms-1">JWT</span>
+                      <span className="badge bg-secondary ms-1">bcryptjs</span>
+                      <span className="badge bg-secondary ms-1">dotenv</span>
+                    </div>
+                    <a
+                      href="https://eatzyra-fofe.vercel.app/"
+                      className="btn btn-outline-success btn-sm me-2 mb-2"
+                      target="_blank"
+                    >
+                      🌐 View Demo
+                    </a>
+                    <a
+                      href="https://github.com/vais2004/Eatzyra"
+                      className="btn btn-outline-secondary btn-sm mb-2"
+                      target="_blank"
+                    >
+                      💻 Frontend
+                    </a>{" "}
+                    <a
+                      href="https://github.com/vais2004/Eatzyra-backend"
+                      className="btn btn-outline-secondary btn-sm mb-2"
+                      target="_blank"
+                    >
+                      ⚙️ Backend
                     </a>
                   </div>
                 </div>
@@ -263,6 +376,7 @@ export default function App() {
           </div>
         </section>
 
+        {/* Contact */}
         <section id="contact" className="py-5 bg-light">
           <div className="container">
             <div className="p-4 mx-auto" style={{ maxWidth: "250px" }}>
@@ -317,6 +431,7 @@ export default function App() {
         </section>
       </main>
 
+      {/* Footer */}
       <footer className="bg-dark text-white py-3 text-center">
         <div className="container">
           <p className="mb-0">
