@@ -56,6 +56,13 @@ export default function App() {
             <div className="col-md-6 order-md-1 text-center text-md-start">
               <h1 className="display-4">I'm Vaishnavi Kawale</h1>
               <p className="lead text-muted">Full Stack Developer</p>
+              <a
+                href={`${process.env.PUBLIC_URL}/assets/Vaishnavi_Kawale_Resume.pdf`}
+                download="Vaishnavi_Kawale_Resume.pdf"
+                className="btn btn-outline-primary mb-2"
+              >
+                Download Resume
+              </a>
             </div>
             <div className="col-md-6 order-md-2 d-flex justify-content-center justify-content-md-end">
               <div className="hero-img">
