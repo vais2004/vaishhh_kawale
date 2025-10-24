@@ -95,7 +95,7 @@ export default function App() {
                     <p className="card-text text-muted">
                       I am a B.Sc. student with a strong interest in web
                       development. I enjoy building responsive applications
-                      using HTML, CSS, JavaScript, and React. I’m eager to
+                      using HTML, CSS, JavaScript, Bootstrap and React. I’m eager to
                       learn, grow, and contribute to meaningful projects.
                     </p>
                   </div>
@@ -125,7 +125,7 @@ export default function App() {
             <h2 className="mb-3">Skills</h2>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
-                Frontend: HTML, CSS, JavaScript
+                Frontend: HTML, CSS, JavaScript, Bootstrap
               </li>
               <li className="list-group-item">Backend: Node.js, Express.js</li>
               <li className="list-group-item">Database: MongoDB</li>
