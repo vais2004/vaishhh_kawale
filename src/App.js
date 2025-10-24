@@ -142,7 +142,7 @@ export default function App() {
           <div className="container">
             <h2 className="mb-4">Projects</h2>
             <div className="row g-4">
- {/* Project 3 */}
+             {/* Project 1 */}
               <div className="col-md-6">
                 <div className="card h-100 shadow-sm">
                   <img
@@ -220,7 +220,7 @@ export default function App() {
                 </div>
               </div>
           
-              {/* Project 1 */}
+              {/* Project 2 */}
               <div className="col-md-6">
                 <div className="card h-100 shadow-sm">
                   <img
@@ -305,7 +305,7 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Project 2 */}
+              {/* Project 3 */}
               <div className="col-md-6">
                 <div className="card h-100 shadow-sm">
                   <img
