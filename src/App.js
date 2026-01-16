@@ -142,7 +142,71 @@ export default function App() {
           <div className="container">
             <h2 className="mb-4">Projects</h2>
             <div className="row g-4">
-             {/* Project 1 */}
+
+          {/* Project 1 */}
+              <div className="col-md-6">
+                <div className="card h-100 shadow-sm">
+                  <img
+                    src="/img/Screenshot%202026-01-15%20214814.png"
+                    alt="MyStyleSpot"
+                    className="card-img-top"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Workviyo</h5>
+                    <hr />
+                    <div className="card-text text-muted">
+                      <strong>Features:</strong>
+                      <ul>
+                        <li>Project and task management with status tracking</li>
+          <li>Team and member assignment to projects</li>
+          <li>Task priority, due dates, and progress updates</li>
+          <li>Role-based access for better collaboration</li>
+          <li>Centralized dashboard for managing workflows</li>
+                      </ul>
+                    </div>
+                    <div className="mb-2">
+                      {/* --- Frontend Stack --- */}
+   <span className="badge bg-secondary">React</span>
+        <span className="badge bg-secondary ms-1">React Router</span>
+        <span className="badge bg-secondary ms-1">Redux Toolkit</span>
+        <span className="badge bg-secondary ms-1">React Redux</span>
+        <span className="badge bg-secondary ms-1">Bootstrap</span>
+        <span className="badge bg-secondary ms-1">React Toastify</span>
+
+                      {/* --- Backend Stack --- */}
+                      <span className="badge bg-secondary ms-1">Node.js</span>
+        <span className="badge bg-secondary ms-1">Express</span>
+        <span className="badge bg-secondary ms-1">MongoDB</span>
+        <span className="badge bg-secondary ms-1">Mongoose</span>
+        <span className="badge bg-secondary ms-1">JWT</span>
+        <span className="badge bg-secondary ms-1">dotenv</span>
+                    </div>
+                    <a
+                      href="https://workviyo-frontend.vercel.app/"
+                      className="btn btn-outline-success btn-sm me-2 mb-2"
+                      target="_blank"
+                    >
+                      🌐 View Demo
+                    </a>
+                    <a
+                      href="https://github.com/vais2004/workviyo-frontend"
+                      className="btn btn-outline-secondary btn-sm mb-2"
+                      target="_blank"
+                    >
+                      💻 Frontend
+                    </a>{" "}
+                    <a
+                      href="https://github.com/vais2004/Workviyo"
+                      className="btn btn-outline-secondary btn-sm mb-2"
+                      target="_blank"
+                    >
+                      ⚙️ Backend
+                    </a>
+                  </div>
+                </div>
+              </div>
+          
+             {/* Project MyStyleSpot */}
               <div className="col-md-6">
                 <div className="card h-100 shadow-sm">
                   <img
