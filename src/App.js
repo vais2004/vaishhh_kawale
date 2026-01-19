@@ -57,7 +57,7 @@ export default function App() {
               <h1 className="display-4">I'm Vaishnavi Kawale</h1>
               <p className="lead text-muted">Full Stack Developer</p>
               <a
-                href={`${process.env.PUBLIC_URL}/assets/vaishnavi_h_kawale_resume.pdf`}
+                href={`${process.env.PUBLIC_URL}/assets/Resume%20-%20VAISHNAVI%20H.%20KAWALE.pdf`}
                 download="vaishnavi_h_kawale_resume.pdf"
                 className="btn btn-outline-primary mb-2"
               >
