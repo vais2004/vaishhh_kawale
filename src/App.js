@@ -125,14 +125,25 @@ export default function App() {
             <h2 className="mb-3">Skills</h2>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
-                Frontend: HTML, CSS, JavaScript, Bootstrap
-              </li>
-              <li className="list-group-item">Backend: Node.js, Express.js</li>
-              <li className="list-group-item">Database: MongoDB</li>
-              <li className="list-group-item">Version Control: Git, GitHub</li>
-              <li className="list-group-item">
-                Tools: VS Code, Postman, Chrome DevTools
-              </li>
+        <strong>Frontend:</strong> React.js, JavaScript (ES6+), HTML, CSS, 
+        Redux Toolkit, React Router, Bootstrap, Tailwind CSS
+      </li>
+
+      <li className="list-group-item">
+        <strong>Backend:</strong> Node.js, Express.js, REST APIs, JWT Authentication
+      </li>
+
+      <li className="list-group-item">
+        <strong>Database:</strong> MongoDB, Mongoose
+      </li>
+
+      <li className="list-group-item">
+        <strong>Tools:</strong> Git, GitHub, Postman, VS Code
+      </li>
+
+      <li className="list-group-item">
+        <strong>Deployment:</strong> Vercel, Netlify, Render
+      </li>
             </ul>
           </div>
         </section>
