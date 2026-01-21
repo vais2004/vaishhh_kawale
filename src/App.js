@@ -55,7 +55,7 @@ export default function App() {
           <div className="row align-items-center">
             <div className="col-md-6 order-md-1 text-center text-md-start">
               <h1 className="display-4">I'm Vaishnavi Kawale</h1>
-              <p className="lead text-muted">Full Stack Developer</p>
+              <p className="lead text-muted">Full Stack MERN Developer | Fresher</p>
               <a
                 href={`${process.env.PUBLIC_URL}/assets/Resume%20-%20VAISHNAVI%20H.%20KAWALE.pdf`}
                 download="vaishnavi_h_kawale_resume.pdf"
