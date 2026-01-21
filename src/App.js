@@ -109,11 +109,10 @@ to meaningful real-world solutions.
                   <div className="card-body">
                     <h2 className="card-title mb-3">Education</h2>
                     <p className="card-text text-muted">
-                      I recently appeared for my B.Sc. 3rd year examinations in
-                      April 2025 at Rajarshi Shahu Arts, Science, and Commerce
-                      College, Pathri Phulambri, Chhatrapati Sambhajinagar
-                      Maharashtra.
-                    </p>
+  Bachelor of Science (B.Sc.) in Computer Science, 2022–2025.<br />
+  Rajarshi Shahu Arts, Science & Commerce College, Chhatrapati Sambhajinagar,
+  Maharashtra.
+</p>
                   </div>
                 </div>
               </div>
