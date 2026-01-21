@@ -125,7 +125,7 @@ export default function App() {
             <h2 className="mb-3">Skills</h2>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
-        <strong>Frontend:</strong> React.js, JavaScript (ES6+), HTML, CSS, 
+        <strong>Frontend:</strong> React.js, JavaScript, HTML, CSS, 
         Redux Toolkit, React Router, Bootstrap, Tailwind CSS
       </li>
 
