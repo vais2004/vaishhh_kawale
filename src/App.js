@@ -93,10 +93,12 @@ export default function App() {
                   <div className="card-body">
                     <h2 className="card-title mb-3">About Me</h2>
                     <p className="card-text text-muted">
-                      I am a B.Sc. student with a strong interest in web
-                      development. I enjoy building responsive applications
-                      using HTML, CSS, JavaScript, Bootstrap and React. I’m eager to
-                      learn, grow, and contribute to meaningful projects.
+                      I am a B.Sc. student with a strong interest in web development, focused on building
+responsive web applications using the MERN stack. As a fresher, I have gained
+hands-on experience through project-based learning and personal projects. I enjoy
+creating practical, user-friendly applications and continuously improving my skills.
+I am eager to learn, grow as a developer, work collaboratively in team-based projects, and contribute
+to meaningful real-world solutions.
                     </p>
                   </div>
                 </div>
